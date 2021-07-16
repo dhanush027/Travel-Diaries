@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Yomogi&display=swap");
+:root {
+  --primary-color: #eff6ff;
+  --secondary-color: #dbeafe;
+  --hover-color: #93c5fd;
+  --border-color: #bfdbfe;
+  --shadow-effect-color: #d1d5db;
+}
+.styling {
+  max-width: 620px;
+  max-height: 700px;
+  padding: 2rem 2rem 2rem 4rem;
+  margin: auto;
+  background-color: var(--secondary-color);
+  font-family: "Yomogi", sans-serif;
+  border: 1px solid var(--border-color);
+  border-radius: 2rem;
+  box-shadow: 0px 2px 10px 3px var(--shadow-effect-color);
+}
+.styling:hover {
+  box-shadow: 0px 2px 30px 3px var(--hover-color);
+}
+body {
+  background-color: #eff6ff;
+  margin: 100px;
+}
