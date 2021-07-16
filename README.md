@@ -1,2 +1,2 @@
 # Travel-diaries
-Created with CodeSandbox
+A React application to check out a list of Travel destinations based on ocassion.
