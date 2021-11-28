@@ -26,10 +26,10 @@ export default function App() {
   return (
     <div className="App">
       <div class="styling">
-        <h1>
+        <p style={{ fontSize: "30px" }}>
           <span style={{ fontSize: "30px" }}>🦸</span> Travel Shaktimaan&nbsp;
           <span style={{ fontSize: "30px" }}>🦸</span>
-        </h1>
+        </p>
         <div>&nbsp;Here is a list of great Goto Places!</div>
         {listObj.map((place) => (
           <button
